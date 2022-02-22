@@ -1,6 +1,6 @@
 {
   "name": "html-rivulet",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "JS dependencies that add functionality to the NPM theme-amalgamate package",
   "repository": "https://github.com/sfneal/html-rivulet.git",
   "author": "sfneal <stephen.neal14@gmail.com>",
