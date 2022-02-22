@@ -5,5 +5,10 @@
   "repository": "https://github.com/sfneal/html-rivulet.git",
   "author": "sfneal <stephen.neal14@gmail.com>",
   "license": "MIT",
-  "files": ["src"]
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "theme-amalgamate": "^0.1.0"
+  }
 }
