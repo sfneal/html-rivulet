@@ -6,10 +6,20 @@ cache:
 
 node_js:
   - node
-  - 'lts/*'
 
 install:
   - yarn install
 
 script:
   - yarn pack
+
+deploy:
+  provider: npm
+  email: stephen.neal14@gmail.com
+  api_key:
+    secure: FMRqJPlmCOeCJky/Iw7fiuTyH073McHPCbKqeEHLHtGMhRqG6Psuo9JsYd3tTtW7jtjyXOTZvQtM4W2iOga8E37+f4nGpgZrWh5KucRzo+/iPZESmKCMgvRFqBcTNAD/h4ztxopeGIa1uSQDfzzOCgPfejXkI3tL2nEUAJjJRgnZQ9uui0ecAdnfDhz1lZHpHeS5M22EqT9TrSOtVLB5uHLGYf3ZtGO4AKpT5zlC+8vSuVjRYAE2Gnfihdl6oTNGhcyvDNLX7IfjI6DoPzsL42h9QnftpaixnoGrVKYaVcA/d+pvF6ZNLB+tGqqhA4mIZCZEljYisdPe7qzhAv3nsSAKhywl1hthbbl3kC/sfvu6m63TK5F1wZpthVvceZqkO3I0aRz6L5PEFgYWnPV7ZqXdpmarHfav7NU4e8KapHUWfd1T82Jb4RzKdgHR1sI+XnCTgTD7+ObxGMZxM7gvmGZASKYMZMEKx8++K2bJZiBOfX1l/zHCvuMdc3tMzBgrMJr5Wi1EYIbM/dD8pauIhMX78ZguyGwtZWgFDh6hRHEBLRI7769Qyo26bkn+JTDVuYxnwswyPfQAkmeGlaEWYCnJEZXEITKXIIfTY9p7FQBQVBnTi6ZHdCix2+hyTWmDaIDuTasiU4E4G97ve7xMz/tk8+GO082NZt70YnXO0FQ=
+  skip_existing: true
+  on:
+    tags: true
+    repo: sfneal/html-rivulet
+  skip_cleanup: 'true'
