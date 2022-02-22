@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-theme-amalgamate@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/theme-amalgamate/-/theme-amalgamate-0.1.0.tgz#b64a2059946e0fb036190097fb6bff67b60b7673"
-  integrity sha512-QCYCYpjdVxEOVpMUoSf024WsgiSCiSaDCCf9BKZvIp7JifzGJsPepI2opLvcsu4+6gFUkyt6U4OJEWmBOG2uEA==
+theme-amalgamate@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/theme-amalgamate/-/theme-amalgamate-1.0.0.tgz#b79adf449125761268fc6d2f210d8a36357193d1"
+  integrity sha512-uj58RSJ//+xraiGBgt8euly650/AODAxbiBtnsAjvuGDa0RARGxFMYm6pMon/T6uQ3MXXig6iKGV2ACGMuYNDA==

@@ -9,6 +9,6 @@
     "src"
   ],
   "dependencies": {
-    "theme-amalgamate": "^0.1.0"
+    "theme-amalgamate": "^1.0.0"
   }
 }
